@@ -10,7 +10,7 @@ let id;
 beforeAll(async () => {
   const credentials = {
     email: "nelsonkennedy2004@gmail.com",
-    password: "nelson1234",
+    password: "valery",
   };
   const res = await request(app).post("/users/login").send(credentials);
   token = res.body.token;
